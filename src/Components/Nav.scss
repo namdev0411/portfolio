@@ -1,0 +1,108 @@
+.nav{
+    transition: all .35s ease-in-out;
+    height: 130px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nav-bar{
+        text-align: right;
+        .list-nav{
+            display: inline-flex;
+            padding: 0;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-right: 50px;
+            transition: height .35s ease-out;
+            width: 100vw;
+            .nav-link{
+                transition: all .15s ease-in-out;
+                border-bottom: 2px solid transparent;
+                transition: border .35s ease-out;
+                border-radius: 2px;
+                cursor: pointer;
+            &:hover{
+                border-bottom: 2px solid #3f51b5;
+            }
+            }
+        }
+    }
+    .hamburger{
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        z-index: 3;
+        background: #8c9eff;
+
+        .burger{
+            height: 2px;
+            width: 25px;
+            margin: 5px;
+            border-radius: 8px;
+            background: #000;
+        }
+    }
+    .page-image{
+        width: 30%;
+        margin: 20px;
+        transition: all 1s ease-in-out;
+    }
+    &.active{
+        background-color: rgba(#7e57c2,.9);
+        color: #fff;
+        height: 80px;
+    }
+}
+@media only screen and(max-width: 576px){
+    .nav{
+        position: relative;
+        .hamburger{
+            display: block !important;
+            margin: 0 10px !important;
+            padding: 0 !important;
+            cursor: pointer;
+            z-index: 3;
+        }
+        .list-nav{
+            position: fixed;
+            top: 0;
+            color: black;
+            height: 0px;
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 0 !important;
+            overflow: hidden;
+            margin: 0 !important;
+            padding: 0 !important;
+            background-color: #8c9eff;
+            .nav-link{
+                padding: 5px;
+                position: relative;
+                display: block;
+                width: 80%;
+                text-align: center;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 1px;
+                    background-color: #888;
+                    width: 60%;
+                }
+                &:last-child::after{
+                    content: "";
+                    height: 0
+                }
+            }
+            &.active{
+                height: 250px !important;
+            }
+        }
+    }
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import {Grid} from '@material-ui/core';
+import Nav from './Components/Nav';
+import Intro from './Components/Intro';
+import EducationTimeline from './Components/EducationTimeline';
+import Certifieds from './Components/Certifieds';
+import Skill from './Components/Skill';
+import Desc from './Components/Desc';
+import Project from './Components/Project';
+import Hobby from './Components/Hobby.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container>
+        <Nav/>
+        <Intro/>
+        <Desc/>
+        <EducationTimeline/>
+        <Skill/>
+        <Project/>
+        <Hobby/>
+        <Certifieds/>
+        <Footer/>
+    </Grid>
   );
 }
 
