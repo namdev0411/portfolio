@@ -17,7 +17,7 @@ function App() {
         <Intro/>
         <Desc/>
         <EducationTimeline/>
-        <Skill/>
+        {/* <Skill/> */}
         <Project/>
         <Hobby/>
         <Certifieds/>

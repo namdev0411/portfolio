@@ -26,7 +26,7 @@ export default function EducationTimeline() {
             <TimelineDot variant="outlined" color="warning"/>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>ReactとPHP卒業作成</TimelineContent>
+          <TimelineContent>ReactとFirebase卒業作成</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent>
@@ -36,7 +36,7 @@ export default function EducationTimeline() {
             <TimelineDot variant="outlined" color="secondary" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>PHP,Reactの勉強</TimelineContent>
+          <TimelineContent>Spring,Reactの勉強</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent>

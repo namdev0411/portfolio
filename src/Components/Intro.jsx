@@ -22,8 +22,8 @@ const Intro = () => {
                     typeSpeed={50}
                     hideCursorAfterText={true}
                 />
-                <a href="./cv.pdf">
-                    <button>Download CV</button>
+                <a href="./cv.docx">
+                    <button>Download CV(履歴書)</button>
                 </a>
             </Grid>
         </Grid>

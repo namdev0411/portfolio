@@ -47,7 +47,6 @@ const Nav = () => {
                     <ul className={display ? "list-nav active": "list-nav"}>
                         <Link to="ido" spy={true} smooth={true} offset={50} duration={500} className="nav-link">I do</Link>
                         <Link to="education" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Education</Link>
-                        <Link to="skills" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Skills</Link>
                         <Link to="project" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Project</Link>
                         <Link to="hobby" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Hobby</Link>
                         <Link to="certifieds" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Certifieds</Link>

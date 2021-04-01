@@ -17,25 +17,37 @@ export default function Project() {
                 >
                     <img src="./images/food.png" alt="food"/>
                 </a>
+                <h3 style={{textAlign: "center"}}>
+                    Food Review(React + sass)
+                </h3>
             </Grid>
             <Grid item sm={6} item className="img">
-                <a href="http://gallerylove0411.surge.sh"
+                <a href="https://photo-gallery-94c5d.web.app"
                     target="true">
                     <img src="./images/gallerylove.png" alt="food"/>
                 </a>
+                <h3 style={{textAlign: "center"}}>
+                    Gallery(React + firebase)
+                </h3>
             </Grid>
             <Grid item sm={6} item className="img">
                 <a href="http://minishop-admin.surge.sh/"
                     target="true">
                     <img src="./images/admin.png" alt="Admin"/>
                 </a>  
+                <h3 style={{textAlign: "center"}}>
+                    Product管理(React + firebase)
+                </h3>
             </Grid>
             <Grid item sm={6} item className="img">
-                <a href="http://petshop0411.surge.sh/"
+                <a href="https://petshop-65533.web.app/home"
                     target="true"
                 >
                     <img src="./images/petshop.png" alt="Petshop"/>
                 </a>  
+                <h3 style={{textAlign: "center"}}>
+                    ネットショッピングサイト(Reactjs)
+                </h3>
             </Grid>
         </Grid>
     )

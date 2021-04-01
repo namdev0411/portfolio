@@ -47,7 +47,6 @@ export default function Hobby() {
                                 height="300px"
                                 width="350px"
                                 src={"./videos/"+item.src}
-                                autoPlay
                                 controls
                             ></video>
                         </div>
