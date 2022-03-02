@@ -19,10 +19,10 @@ const Desc = () => {
                             <CreateIcon/>
                         </span>
                         <Typography className="desc-title" variant="h4" display="inline">
-                            Copywrite
+                            Salesfore 開発者
                         </Typography>
                         <ul className="desc-text">
-                            <li>マーケティングや広告のためにページを作成します。</li>
+                            <li>Apex、LWC、Aura components</li>
                         </ul>
                     </div>
                 </Grid>
@@ -35,23 +35,8 @@ const Desc = () => {
                             Design
                         </Typography>
                         <ul className="desc-text">
-                            <li>WEBのUX UIの作業を行います。Responsiveで色々なフラットフォームで
-                                綺麗に見ることが出来ます。
-                            </li>
-                        </ul>
-                    </div>
-                </Grid>
-                <Grid container item sm={6} className="desc-item">
-                    <div>
-                        <span className="desc-item-icon">
-                            <PhoneIphoneIcon/>
-                        </span>
-                        <Typography className="desc-title" variant="h4" display="inline">
-                            App                        
-                        </Typography>
-                        <ul className="desc-text">
                             <li>
-                                React-nativeでAndroidとIOSのAppを作ります。
+                                Salesforce の基本設計書、詳細設計書を作成する経験
                             </li>
                         </ul>
                     </div>
