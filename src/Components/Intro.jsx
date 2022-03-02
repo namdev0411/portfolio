@@ -14,8 +14,8 @@ const Intro = () => {
                     startDelay={100}
                     cursorColor="black"
                     multiText={[
-                        'Hi,I am Nam!',
-                        'I am a frontend Dev!'
+                        'ナンと申します。',
+                        'Salesforce 開発者です。'
                     ]}
                     loop={true}
                     nextTextDelay={1000}

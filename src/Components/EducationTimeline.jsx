@@ -20,6 +20,29 @@ export default function EducationTimeline() {
         <TitleField text="Education"/>
       </Grid>
       <Timeline align="alternate">
+
+        <TimelineItem>
+          <TimelineOppositeContent>
+              <Typography color="textSecondary">2022/2</Typography>
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="secondary" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>Salesforce 認定 Platform アプリケーションビルダー試験に合格</TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent>
+              <Typography color="textSecondary">2021/4</Typography>
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" color="secondary" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>2NFJAPAN株式会社に入社、Salesforceの勉強を始める</TimelineContent>
+        </TimelineItem>
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineConnector />
